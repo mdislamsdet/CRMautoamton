@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test thread-count="5" name="crmpro(failed)">
+    <classes>
+      <class name="com.crm.testcases.DealPageTest">
+        <methods>
+          <include name="tearDowen"/>
+          <include name="setUp"/>
+          <include name="verifynewdeallink"/>
+        </methods>
+      </class> <!-- com.crm.testcases.DealPageTest -->
+    </classes>
+  </test> <!-- crmpro(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

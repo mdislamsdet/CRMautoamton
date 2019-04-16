@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CRMPro]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Crm automation test(failed)">
+    <classes>
+      <class name="com.crm.testcases.DealPageTest">
+        <methods>
+          <include name="tearDowen"/>
+          <include name="setUp"/>
+          <include name="verifynewdeallink"/>
+        </methods>
+      </class> <!-- com.crm.testcases.DealPageTest -->
+    </classes>
+  </test> <!-- Crm automation test(failed) -->
+</suite> <!-- Failed suite [CRMPro] -->
